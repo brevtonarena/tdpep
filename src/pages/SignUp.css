@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SignUp{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.SignUpCard{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(142, 136, 136);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(134, 184, 225, 0.5);
+    padding: 30px;
+}
+
+.SignUpCard h1{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.SignUpCard img{
+    height: 70px;
+    width: 70px;
+}
+
+.inp{
+    height: 30px;
+    width: 15vw;
+    border: 1px solid rgb(114, 146, 201);
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.btn{
+    height: 30px;
+    width: 15vw;
+    border: none;
+    background-color: rgb(114, 146, 201);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+

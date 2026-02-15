@@ -142,7 +142,9 @@ const BrevtonNavbar = () => {
           
           {/* User dropdown */}
           <div className="dropdown" ref={userDropdownRef}>
-            <i className="fa-regular fa-user" onClick={() => setShowUserDropdown(!showUserDropdown)}></i>
+            <button className="icon-btn user-btn" onClick={() => setShowUserDropdown(!showUserDropdown)}>
+              <i className="fa-regular fa-user"></i>
+            </button>
             {showUserDropdown && (
               <div className="dropdown-menu" id="user-dropdown">
                 {userDropdownItems.map((item, index) => {

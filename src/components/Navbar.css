@@ -5,6 +5,10 @@
 }
 
 :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
   --brevton-bg: #0d1117;
   --navbar-bg: #161b22;
   --border-color: #30363d;
@@ -96,8 +100,6 @@
 /* Navigation items */
 .nav-items {
   display: flex;
-  /* align-items: center; */
-  /* margin-right: 16px; */
 }
 
 .nav-item {
@@ -157,6 +159,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--navbar-bg);
 }
 
 .icon-btn:hover {
@@ -368,7 +371,7 @@
   }
 
   .nav-items {
-    display:none;
+    display: none;
   }
 }
 

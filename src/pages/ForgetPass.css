@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ForgetPass{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ForgetCard{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(142, 136, 136);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(134, 184, 225, 0.5);
+    padding: 30px;
+}
+
+.ForgetCard h1{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ForgetCard img{
+    height: 70px;
+    width: 70px;
+}
+
+.inp{
+    height: 30px;
+    width: 15vw;
+    border: 1px solid rgb(114, 146, 201);
+    border-radius: 3px;
+    padding-left: 5px;
+}
+
+.btn{
+    height: 30px;
+    width: 15vw;
+    border: none;
+    background-color: rgb(114, 146, 201);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.OtpBtn{
+    margin-top: 1px;
+    height: 30px;
+    background-color: rgb(114, 146, 201);
+    color: white;
+    border-radius: 3px;
+    width:5vw;
+    border: none;
+}
+
+
