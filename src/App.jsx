@@ -1,16 +1,17 @@
 import React from "react";
-import Navbar from "./components/Navbar.jsx";
+// import Navbar from "./components/Navbar.jsx";
 // import Sidebar from   "../src/components/Sidebar.jsx";
-import Login from "./pages/login.jsx";
-import SignUp from "./pages/SignUp.jsx";
-import ForgetPass from "./pages/ForgetPass.jsx";
+// import Login from "./pages/login.jsx";
+// import SignUp from "./pages/SignUp.jsx";
+// import ForgetPass from "./pages/ForgetPass.jsx";
 import {Routes, Route, BrowserRouter} from "react-router-dom";
 import ErrorBoundary from "./components/Error.jsx";
+import AdminDashboard from "./pages/AdminDashboard.jsx";
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
         <BrowserRouter>
       <ErrorBoundary>
         <Routes>
@@ -18,9 +19,10 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/forget-password" element={<ForgetPass />} />
         </Routes>
-      </ErrorBoundary>
+      </ErrorBoundary> */}
       {/* <Sidebar /> */}
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
+    <AdminDashboard />
     </>
   );
 }
