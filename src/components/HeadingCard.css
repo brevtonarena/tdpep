@@ -1,0 +1,50 @@
+/* HeadingCard - project title  */
+.heading{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 8px;
+    padding: 0 20px;
+}
+
+/* Right side button  */
+.heading-btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+/* Submit work button - green primary action */
+.submit{
+    background-color: rgba(55, 162, 55, 0.956);
+    border-radius: 8px;
+    padding: 10px;
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.submit:hover{
+    background-color: rgb(55, 162, 55);
+    /* color: var(--text-white); */
+}
+
+/* Post comment button - subtle secondary action */
+.cmt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+}
+
+.cmt:hover {
+    background-color: whitesmoke;
+}

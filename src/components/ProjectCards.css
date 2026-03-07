@@ -1,0 +1,232 @@
+/*  Project Cards  */
+
+.project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual card */
+.project-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 13px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Top row */
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* icon box */
+.card-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.icon-blue   { background-color: #d6e8f7; color: #5d7c9b; }
+.icon-red    { background-color: #fde8e8; color: #d9534f; }
+.icon-purple { background-color: #e8e0f5; color: #7c5cbf; }
+.icon-green  { background-color: #d6f0e0; color: rgba(55, 162, 55, 0.956); }
+
+.card-title {
+    font-size: 15px;
+    color: #2c3e50;
+    margin-bottom: 3px;
+}
+
+.card-meta {
+    font-size: 12px;
+    color: #5d7c9b;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Status badge */
+.status-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Status badge color variants */
+.status-yellow { background-color: #fef3cd; color: #b07d20; }
+.status-green  { background-color: rgba(55, 162, 55, 0.15); color: rgba(55, 162, 55, 0.956); }
+.status-teal   { background-color: #d4f0ec; color: #1a7a6e; }
+.status-blue   { background-color: #d6e8f7; color: #2c6fad; }
+
+.progress-pct {
+    margin-left: 4px;
+    font-weight: 400;
+}
+
+/* Bottom row */
+.card-bottom {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #5d7c9b;
+    min-width: 160px;
+}
+
+/* Progress bar */
+.card-progress-bg {
+    flex: 1;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-progress-fill {
+    height: 100%;
+    background: linear-gradient(to right, #8bb1d7, #e2b748);
+    border-radius: 10px;
+}
+
+.progress-green {
+    background: linear-gradient(to right, rgba(55, 162, 55, 0.7), #e2b748);
+}
+
+/* Action buttons */
+.card-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.view-btn {
+    background-color: #8bb1d7;
+    color: white;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.view-btn:hover {
+    background-color: #5d7c9b;
+}
+
+.view-btn-outline {
+    background-color: white;
+    color: #5d7c9b;
+    border: 1px solid #ccc;
+}
+
+.view-btn-outline:hover {
+    background-color: whitesmoke;
+}
+
+.settings-btn {
+    background-color: #eaf1f8;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #5d7c9b;
+    font-size: 13px;
+}
+
+.settings-btn:hover {
+    background-color: #d6e8f7;
+}
+
+
+/*  Project Stats Bar */
+
+.stats-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stats-number {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.stats-label {
+    font-size: 13px;
+    color: #5d7c9b;
+}
+
+/* Icon color  */
+.stats-icon-green  { color: rgba(55, 162, 55, 0.956); font-size: 18px; }
+.stats-icon-blue   { color: #8bb1d7; font-size: 18px; }
+.stats-icon-orange { color: #e2a030; font-size: 18px; }
+
+.stats-divider {
+    width: 1px;
+    height: 24px;
+    background-color: #ddd;
+    margin: 0 5px;
+}
+
+.stats-chevron {
+    margin-left: auto;
+    color: #5d7c9b;
+    cursor: pointer;
+}
+
+
+/* Project Filter Tabs */
+
+.project-filter {
+    display: flex;
+    gap: 8px;
+}
+
+.filter-btn {
+    padding: 8px 18px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white;
+    cursor: pointer;
+    font-size: 13px;
+    color: #5d7c9b;
+}
+
+/* Active tab */
+.filter-btn-active {
+    background-color: #8bb1d7;
+    color: white;
+    border: 1px solid #8bb1d7;
+    font-weight: 600;
+}
+
+.filter-btn:hover {
+    background-color: #eaf1f8;
+}

@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit-work {
+    background-color: whitesmoke;
+}
+
+/* Sidebar fixed */
+.sidebar {
+    width: 15vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.366);
+}
+
+/* Offset main content from sidebar */
+.mainContent {
+    margin-left: 15vw;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.nav {
+    margin-bottom: 55px;
+}
+
+/* Breadcrumb */
+.path {
+    font-size: 14px;
+    color: #5d7c9b;
+    margin-bottom: 10px;
+}
+
+/* Page title + sort row */
+.submit-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    color: #5d7c9b;
+}
+
+.more-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #5d7c9b;
+    font-size: 16px;
+}
+
+/* Two column layout */
+.columns {
+    display: flex;
+    gap: 15px;
+}
+
+.left-column {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-column {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Shared card style */
+.description {
+    margin: 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 13px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Info note box */
+.info-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #eaf1f8;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 13px;
+    color: #4a6e8a;
+}
+
+.info-icon {
+    color: #5d7c9b;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+/* Repo + Notes side by side */
+.submit-bottom {
+    display: flex;
+    gap: 15px;
+}
+
+.repo-section {
+    flex: 1;
+}
+
+.notes-section {
+    flex: 1;
+}
+
+/* Action buttons */
+.submit-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    background-color: rgba(55, 162, 55, 0.956);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.submit-btn:hover {
+    background-color: rgb(55, 162, 55);
+}
+
+.cancel-btn {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #5d7c9b;
+}
+
+.cancel-btn:hover {
+    background-color: whitesmoke;
+}
+
+/* Right column cards */
+.AI-Assistant {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.smart-tips-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checklist-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}

@@ -71,13 +71,6 @@ const BrevtonNavbar = () => {
   return (
     <>
       <nav className="navbar">
-        {/* Logo section */}
-        <div className="navbar-logo">
-          <img className="user-avatar" src="https://avatars.githubusercontent.com/u/250320948?v=4" alt="" />
-          <span>Brevton</span>
-          <span className="slash">/</span>
-          <span className="page">Dashboard</span>
-        </div>
 
         {/* Search bar */}
         <div className="navbar-search">

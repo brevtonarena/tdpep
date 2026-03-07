@@ -8,13 +8,11 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  --brevton-bg: #0d1117;
-  --navbar-bg: #161b22;
+  --navbar-bg: white;
   --border-color: #30363d;
-  --text-primary: #c9d1d9;
+  --text-primary: #5d7c9b;
   --text-secondary: #8b949e;
-  --text-white: #f0f6fc;
+  --text-white: #5d7c9bad;
   --accent-color: #58a6ff;
   --active-color: #f78166;
   --notification-badge: #f85149;
@@ -25,37 +23,14 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  background-color: var(--navbar-bg);
+  width: 85%;
+  background-color: white;
   border-bottom: 1px solid var(--text-secondary);
   display: flex;
   align-items: center;
   padding: 12px 24px;
-  z-index: 1000;
-}
-
-/* Logo section */
-.navbar-logo {
-  display: flex;
-  align-items: center;
-  margin-right: 16px;
-}
-
-.navbar-logo span {
-  font-weight: 600;
-  font-size: 18px;
-  color: var(--text-white);
-  margin-right: 8px;
-}
-
-.slash-separator {
-  color: #6e7681;
-  margin: 0 8px;
-}
-
-.repo-name {
-  color: var(--text-secondary);
-  font-weight: 500;
+  z-index: 2000;
+  margin-left: 15vw;
 }
 
 /* Search bar */
@@ -72,7 +47,6 @@
 
 .search-input {
   width: 100%;
-  background-color: var(--brevton-bg);
   border: 1px solid var(--border-color);
   border-radius: 6px;
   padding: 8px 12px 8px 36px;
@@ -85,7 +59,6 @@
   outline: none;
   border-color: var(--accent-color);
   box-shadow: 0 0 0 3px rgba(56, 139, 253, 0.15);
-  background-color: var(--brevton-bg);
 }
 
 .search-icon {
@@ -119,11 +92,11 @@
 }
 
 .nav-item:hover {
-  color: var(--text-white);
+  color:#5d7c9bc8 ;
 }
 
 .nav-item.active {
-  color: var(--text-white);
+  color: #5d7c9bad;
 }
 
 .nav-item.active::after {
@@ -206,7 +179,7 @@
   width: 180px;
   padding: 8px 0;
   margin-top: 8px;
-  box-shadow: 0 8px 24px var(--dropdown-shadow);
+  box-shadow: 0 8px 10px var(--dropdown-shadow);
   z-index: 1000;
 }
 

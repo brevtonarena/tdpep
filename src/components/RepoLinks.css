@@ -1,0 +1,91 @@
+.repo-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Tab  */
+.repo-tabs {
+    display: flex;
+    gap: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+.repo-tab {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    color: #5d7c9b;
+}
+
+/* Active git tab  */
+.repo-tab-active {
+    background-color: rgba(55, 162, 55, 0.15);
+    color: rgba(55, 162, 55, 0.956);
+    font-weight: 600;
+}
+
+.repo-tab:hover {
+    background-color: whitesmoke;
+}
+
+/* Input row */
+.repo-input-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 13px;
+    color: #5d7c9b;
+}
+
+.repo-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #2c3e50;
+    outline: none;
+}
+
+.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #8bb1d7;
+}
+
+/* Add link button */
+.add-link {
+    font-size: 13px;
+    color: #8bb1d7;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-link:hover {
+    color: #5d7c9b;
+}
+
+/* Progress bar  */
+.upload-progress-bg {
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.upload-progress-fill {
+    height: 100%;
+    width: 90%;
+    background: linear-gradient(to right, #8bb1d7, #e2b748);
+    border-radius: 10px;
+}

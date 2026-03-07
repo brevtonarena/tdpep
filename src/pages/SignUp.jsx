@@ -22,8 +22,8 @@ const SignUp = () => {
             <input className="inp" type="password" placeholder="OTP" />
           </div>          
           <div className="password">
-            <h3>Password</h3>
-            <input className="inp" type="password" placeholder="Password" />
+            <h3>Set Password</h3>
+            <input className="inp" type="password" placeholder="Set Password" />
           </div>          
           <button className="btn">Sign Up</button>
           

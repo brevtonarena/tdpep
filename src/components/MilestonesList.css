@@ -1,0 +1,86 @@
+.milestones-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+/*  milestone row */
+.milestone-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.milestone-pending {
+    border-bottom: none;
+    color: #999;
+}
+
+.milestone-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.milestone-top h4 {
+    font-size: 14px;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Status badge  */
+.milestone-status {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #f5f0e0;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.dot-yellow {
+    width: 8px;
+    height: 8px;
+    background-color: #e2b748;
+    border-radius: 50%;
+}
+
+.status-text {
+    color: #7a6a3a;
+    font-size: 12px;
+}
+
+/* Time info */
+.milestone-bottom {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.milestone-time {
+    font-size: 12px;
+    color: #5d7c9b;
+    min-width: 130px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Progress bar */
+.progress-bar-bg {
+    flex: 1;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(to right, #8bb1d7, #e2b748);
+    border-radius: 10px;
+}
